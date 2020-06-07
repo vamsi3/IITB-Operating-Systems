@@ -1,0 +1,13 @@
+$ ./threads-with-mutex 
+Counter: 100000 
+
+
+
+$ ./threads-with-mutex 
+Counter: 100000 
+
+
+
+$ ./threads-with-mutex 
+Counter: 100000 
+

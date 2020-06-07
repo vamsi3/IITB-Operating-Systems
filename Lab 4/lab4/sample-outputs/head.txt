@@ -1,0 +1,26 @@
+turtle > head 5 abc.txt
+--- abc.txt ---
+abc
+def
+ghi
+jkl
+mno
+
+
+
+turtle > head 5 hello.txt
+--- hello.txt ---
+Hello
+World 
+
+
+
+turtle > head 4 hello.txt abc.txt
+--- hello.txt ---
+Hello
+World
+--- abc.txt ---
+abc
+def
+ghi
+jkl

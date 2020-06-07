@@ -1,0 +1,10 @@
+$ ./test2
+do_task failed. task ID: 101 
+[5] Executing task1. ID: 100. a: 10. b: 11 
+[6] Executing task2. ID: 101. a: 20. b: 21 
+[5] Completed 1 tasks. Last completed task ID: 100 
+[6] Completed 1 tasks. Last completed task ID: 101 
+wait_for_task_to_complete failed. task ID: 101 
+
+
+Result (100): 21.  Result (101): 420. Result (102): 0.

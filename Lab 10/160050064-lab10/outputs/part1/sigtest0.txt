@@ -1,0 +1,26 @@
+$ sigtest0
+Child: 0  
+Child: 0  
+Child: 0  
+Child: 0  
+
+[3] Parent sends signal '5' to child 
+Default handler: PID: 4. Signal type: 5
+Child: 0  
+Child: 0  
+Child: 0  
+Child: 0  
+Child: 0  
+
+[3] Parent sends signal '6' to child 
+Default handler: PID: 4. Signal type: 6
+Child: 0  
+Child: 0  
+Child: 0  
+Child: 0  
+Child: 0  
+
+[3] Parent sends signal '1' to child 
+Default handler: PID: 4. Signal type: 1
+[3] Child process has terminated 
+$ 

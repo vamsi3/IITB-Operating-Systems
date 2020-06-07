@@ -1,0 +1,23 @@
+$ ./sem_test2
+Process: 15, sem[0]: 4 
+Process: 16, sem[0]: 3 
+Process: 17, sem[0]: 2 
+Process: 18, sem[0]: 1 
+Process: 19, sem[0]: 0 
+[14] Parent: Waiting for 10 seconds 
+Process: 14, sem[0]: 1 
+Process: 20, sem[0]: 0 
+Process: 14, sem[0]: 1 
+Process: 21, sem[0]: 0 
+Process: 14, sem[0]: 1 
+Process: 22, sem[0]: 0 
+Process: 14, sem[0]: 1 
+Process: 23, sem[0]: 0 
+Process: 14, sem[0]: 1 
+Process: 24, sem[0]: 0 
+Process: 14, sem[0]: 1 
+Process: 14, sem[0]: 2 
+Process: 14, sem[0]: 3 
+Process: 14, sem[0]: 4 
+Process: 14, sem[0]: 5 
+$ 

@@ -1,0 +1,92 @@
+
+A sample list of commands to test your programs.
+For expected outputs, use these commands with the given
+sample binary.
+
+Note: No syntax related error hanlding is expected.
+e.g., will not be tested on cases like "ls && ps && && ls",
+or "&& ls && ps".
+
+
+1. beegees
+
+	ls
+
+	ls && 
+
+	ls && ps
+
+	ls -l
+
+	sleep 3 && sleep 3
+	
+	cat -n beegees.c
+
+	ls  && ls -l && ps
+
+	sleep 25 && sleep 30
+	exit
+
+	^C
+
+	ls && samosa && ps
+
+	samosa
+	
+	samosa && wada
+	
+	ls && wada
+
+	wada && sleep 40 &&
+	exit
+
+	sleep 25 && sleep 30
+	^C
+
+	extra credit sample inputs
+	----------------------
+
+	sleep 100 && sleep 200
+	sleep 1
+
+	sleep 100 && sleep 200
+	sleep 1 &&
+
+	sleep 100 && sleep 200
+	sleep 50
+	^C
+
+
+2. program plumbing
+
+	ls
+
+	ls | wc -l
+	
+	ls | grep a
+	
+	cat plumb.c | grep pipe
+	
+	cat plumb.c | grep wait | wc -l 
+	
+	cat plumb.c | grep waiting | wc -l 
+
+	ps -samosa
+	
+	cat wada.eat.now | wc -l
+	
+	ps -samosa | ps -resamosa
+
+	ps | ps -resamosa
+	
+	samosa | wc -l
+
+	ps | wada
+
+	wada | samosa
+
+	wada | ps | wc -l
+
+	ps | wc -l | samosa
+
+	ps -a | echo Badlu is missing | grep Badlu --color=auto

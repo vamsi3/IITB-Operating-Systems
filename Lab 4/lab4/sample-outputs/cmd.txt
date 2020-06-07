@@ -1,0 +1,47 @@
+turtle > cmd ls 
+.              1 1 512
+..             1 1 512
+README         2 2 2517
+cat            2 3 13464
+echo           2 4 12540
+forktest       2 5 8252
+grep           2 6 15292
+init           2 7 13128
+kill           2 8 12580
+ln             2 9 12488
+ls             2 10 14704
+mkdir          2 11 12604
+rm             2 12 12584
+sh             2 13 23560
+stressfs       2 14 13256
+usertests      2 15 56140
+wc             2 16 14116
+zombie         2 17 12312
+helloxv6       2 18 12272
+my_siblings    2 19 13780
+my_ancestors   2 20 13764
+cmd            2 21 12708
+console        3 22 0
+
+
+turtle > cmd echo hello
+hello
+
+
+turtle > cmd ls | grep c
+cat            2 3 13464
+echo           2 4 12540
+wc             2 16 14116
+my_ancestors   2 20 13764
+cmd            2 21 12708
+console        3 22 0
+
+
+
+turtle > cmd head 3 abc.txt
+--- abc.txt ---
+abc
+def
+ghi
+
+

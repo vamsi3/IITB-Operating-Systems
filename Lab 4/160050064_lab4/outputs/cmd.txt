@@ -1,0 +1,44 @@
+turtle$ cmd ls
+.              1 1 512
+..             1 1 512
+README         2 2 2290
+cat            2 3 13448
+cmd            2 4 23344
+echo           2 5 12520
+forktest       2 6 8232
+grep           2 7 15272
+head           2 8 13632
+helloxv6       2 9 12332
+init           2 10 13112
+kill           2 11 12564
+ln             2 12 12472
+ls             2 13 14688
+mkdir          2 14 12588
+my_siblings    2 15 13764
+rm             2 16 12568
+sh             2 17 23216
+stressfs       2 18 13240
+usertests      2 19 56124
+wc             2 20 14104
+zombie         2 21 12296
+console        3 22 0
+
+
+turtle$ cmd echo hello
+hello
+
+
+turtle$ cmd ls | grep c
+cat            2 3 13448
+cmd            2 4 23344
+echo           2 5 12520
+wc             2 20 14104
+console        3 22 0
+
+
+turtle > cmd head 3 README
+--- README ---
+xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix
+Version 6 (v6).  xv6 loosely follows the structure and style of v6,
+but is implemented for a modern x86-based multiprocessor using ANSI C.
+

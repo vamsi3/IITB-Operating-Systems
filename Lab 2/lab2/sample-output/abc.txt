@@ -1,0 +1,17 @@
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop1    7:1    0  86.6M  1 loop /snap/core/4650
+sdd      8:48   0 931.5G  0 disk 
+├─sdd2   8:50   0     1K  0 part 
+├─sdd5   8:53   0     4G  0 part 
+└─sdd1   8:49   0 927.5G  0 part /home/**/hdd1TB
+sdb      8:16   0 223.6G  0 disk 
+└─sdb1   8:17   0 223.6G  0 part /home/**/ssd_sdb1
+loop2    7:2    0  86.9M  1 loop /snap/core/4917
+loop0    7:0    0 157.4M  1 loop /snap/inkscape/4019
+sdc      8:32   0 223.6G  0 disk 
+sda      8:0    0 465.8G  0 disk 
+├─sda4   8:4    0 370.1G  0 part /home
+├─sda2   8:2    0  37.2G  0 part [SWAP]
+├─sda3   8:3    0  57.2G  0 part /
+└─sda1   8:1    0   1.3G  0 part /boot
+loop3    7:3    0  86.9M  1 loop /snap/core/4830

@@ -1,0 +1,61 @@
+README 
+Labquiz #3. 15th October 2018
+
+
+1. For Part 1 following files are provided,
+
+- a set of files in the xv6 source with implementation of
+  the init_counters, set_var, get_var system calls in sysproc.c
+  and
+  locking related functions in spinlock.c and proc.c
+
+- sysproc.c is a possible location to implement the semaphore
+  system calls. 
+
+- prodcon.c : template for implementation of the producer-consumer 
+              logic.
+
+- sem-test*.c: test cases for the semaphore implementation.
+
+- sem-test*.txt: sample outputs for corresponding test cases.
+
+- Test and report producer-consumer with following cases and more 
+  of your own. Note command and corresponding output 
+
+  ./prodcon 1 1 1 1 1
+  ./prodcon 1 3 1 3 1
+  ./prodcon 1 3 1 1 3
+  ./prodcon 3 1 1 1 1
+  ./prodcon 3 3 1 1 3
+  ./prodcon 6 3 1 3 1
+  ./prodcon 8 3 1 1 3
+  ./prodcon 4 4 1 3 1
+  ./prodcon 8 4 1 3 1
+  ./prodcon 1 1 3 3 1
+  ./prodcon 3 4 1 4 1
+  ./prodcon 3 1 4 1 3
+  ./prodcon 3 1 4 1 5
+ 
+  ... and other cases you want to do for checking.
+
+
+2. For Part 2 following files are provided,
+
+- barrier.h : which declares variables and functions for the
+              barrier implementation.
+
+- barrier.c : the source file for implementation of the barrier
+              functions.
+
+
+- barrier-testcase*.c : source files containing test-cases for the
+                        barrier  implementation. compile and execute
+						these programs to check barrier implementation. 
+
+- barrier-testcases.txt : outputs of the testcases.
+
+
+
+
+3. Use the following command to compile the barrier testcases
+   gcc ./barrier-testcase1.c barrier.c -o ./barrier-testcase1 -lpthread

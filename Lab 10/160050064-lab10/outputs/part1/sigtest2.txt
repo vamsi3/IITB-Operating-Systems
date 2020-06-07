@@ -1,0 +1,8 @@
+$ sigtest2
+
+[7] Parent sends first signal to child 
+Child: Signal handler invoked !!!. signal type: 5 
+
+[7] Parent sends second signal to child 
+Child: Signal handler invoked !!!. signal type: 1 
+$ 

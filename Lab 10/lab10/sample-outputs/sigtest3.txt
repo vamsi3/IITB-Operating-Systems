@@ -1,0 +1,25 @@
+$ ./sigtest3
+Child: 1  
+Child: 1  
+Child: 1  
+Child: 1  
+
+[3] Parent sends signal '5' to child 
+Child: Signal handler invoked !!!. signal type: 5 
+Child: 1  
+Child: 1  
+Child: 1  
+Child: 1  
+Child: 1  
+
+[3] Parent sends signal '6' to child 
+Child: Signal handler invoked !!!. signal type: 6 
+Child: 1  
+Child: 1  
+Child: 1  
+Child: 1  
+Child: 1  
+
+[3] Parent sends signal '1' to child 
+Child: Signal handler invoked !!!. signal type: 1 
+$ 

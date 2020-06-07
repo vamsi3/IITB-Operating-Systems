@@ -1,0 +1,5 @@
+Exercise 5
+----------
+
+*	Run the executable 'openfiles' and find its process id.
+*	Findout all the files opened by this program using its process id.

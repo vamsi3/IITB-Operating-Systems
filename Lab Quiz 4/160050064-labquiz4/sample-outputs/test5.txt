@@ -1,0 +1,124 @@
+$ ./test5 1
+
+--------------------------------------
+Results. 0 + 2 = 2 
+Results. 1 * 3 = 3 
+Results. 2 + 4 = 8 
+Results. 3 * 5 = 8 
+Results. 4 + 6 = 24 
+Results. 5 * 7 = 35 
+Results. 6 + 8 = 14 
+Results. 7 * 9 = 63 
+Results. 8 + 10 = 80 
+Results. 9 * 11 = 20 
+Results. 10 + 12 = 120 
+Results. 11 * 13 = 143 
+Results. 12 + 14 = 26 
+Results. 13 * 15 = 195 
+Results. 14 + 16 = 224 
+Results. 15 * 17 = 32 
+Results. 16 + 18 = 288 
+Results. 17 * 19 = 323 
+Results. 18 + 20 = 38 
+Results. 19 * 21 = 399 
+
+Duration: 4059 ticks
+
+
+
+
+$ ./test5 2
+
+--------------------------------------
+Results. 0 + 2 = 2 
+Results. 1 * 3 = 3 
+Results. 2 + 4 = 8 
+Results. 3 * 5 = 8 
+Results. 4 + 6 = 24 
+Results. 5 * 7 = 35 
+Results. 6 + 8 = 14 
+Results. 7 * 9 = 63 
+Results. 8 + 10 = 80 
+Results. 9 * 11 = 20 
+Results. 10 + 12 = 120 
+Results. 11 * 13 = 143 
+Results. 12 + 14 = 26 
+Results. 13 * 15 = 195 
+Results. 14 + 16 = 224 
+Results. 15 * 17 = 32 
+Results. 16 + 18 = 288 
+Results. 17 * 19 = 323 
+Results. 18 + 20 = 38 
+Results. 19 * 21 = 399 
+
+Duration: 2048 ticks 
+
+
+
+
+
+$ ./test5 3
+
+--------------------------------------
+Results. 0 + 2 = 2 
+Results. 1 * 3 = 3 
+Results. 2 + 4 = 8 
+Results. 3 * 5 = 8 
+Results. 4 + 6 = 24 
+Results. 5 * 7 = 35 
+Results. 6 + 8 = 14 
+Results. 7 * 9 = 63 
+Results. 8 + 10 = 80 
+Results. 9 * 11 = 20 
+Results. 10 + 12 = 120 
+Results. 11 * 13 = 143 
+Results. 12 + 14 = 26 
+Results. 13 * 15 = 195 
+Results. 14 + 16 = 224 
+Results. 15 * 17 = 32 
+Results. 16 + 18 = 288 
+Results. 17 * 19 = 323 
+Results. 18 + 20 = 38 
+Results. 19 * 21 = 399 
+
+Duration: 1420 ticks 
+
+ 
+
+
+$ ./test5 10
+
+--------------------------------------
+Results. 0 + 2 = 2 
+Results. 1 * 3 = 3 
+Results. 2 + 4 = 8 
+Results. 3 * 5 = 8 
+Results. 4 + 6 = 24 
+Results. 5 * 7 = 35 
+Results. 6 + 8 = 14 
+Results. 7 * 9 = 63 
+Results. 8 + 10 = 80 
+Results. 9 * 11 = 20 
+Results. 10 + 12 = 120 
+Results. 11 * 13 = 143 
+Results. 12 + 14 = 26 
+Results. 13 * 15 = 195 
+Results. 14 + 16 = 224 
+Results. 15 * 17 = 32 
+Results. 16 + 18 = 288 
+Results. 17 * 19 = 323 
+Results. 18 + 20 = 38 
+Results. 19 * 21 = 399 
+
+Duration: 416 ticks 
+$ 
+
+
+
+
+
+
+
+
+
+

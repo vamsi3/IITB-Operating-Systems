@@ -1,0 +1,24 @@
+$./p7b 10
+Parent is : 7431 
+Number of children: 10 
+Child 7432 is created 
+Child 7433 is created 
+Child 7434 is created 
+Child 7435 is created 
+Child 7436 is created 
+Child 7437 is created 
+Child 7438 is created 
+Child 7439 is created 
+Child 7440 is created 
+Child 7441 is created 
+Child 7439 exited 
+Child 7440 exited 
+Child 7433 exited 
+Child 7432 exited 
+Child 7437 exited 
+Child 7435 exited 
+Child 7438 exited 
+Child 7434 exited 
+Child 7436 exited 
+Child 7441 exited 
+Parent exited 

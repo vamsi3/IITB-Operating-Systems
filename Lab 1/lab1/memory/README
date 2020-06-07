@@ -1,0 +1,9 @@
+Excercise 2
+--------------
+
+*	Understand the difference between VmSize and VmRSS.
+*	Compile and run all the programs in this directory one by one.
+*	Find out VmSize & VmRSS of each program before the program terminates.
+*	Compare  the memory usage of these programs in terms of VmSize & VmRSS
+        and justify your results based on the code.
+

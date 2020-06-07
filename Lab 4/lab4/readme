@@ -1,0 +1,18 @@
+Lab 4. CS333. Autumn 2018
+
+*  lab4.pdf describes the lab statement.
+
+*  The directory 'test-programs' contains the test
+   programs for the exercises 3b and 3c.
+
+*  The directory 'sample-outputs' contains the
+   sample outputs.
+
+*  Don't change the cat.c for implementing head program.
+   Copy cat.c to head.c and modify the head.c.
+   Also make necessary changes in Makefile.
+
+*  Use the following commands to clean, compile, and run 
+   the xv6 on qemu  
+   
+   make clean && make && make qemu

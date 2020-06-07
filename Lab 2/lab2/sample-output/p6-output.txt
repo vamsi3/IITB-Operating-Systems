@@ -1,0 +1,19 @@
+$ ./p6
+Parent : The child's process ID is : 4040
+Parent : The process ID is : 4039
+Child : The child's process ID is : 4040
+Child : The parent process ID is : 4039
+
+Parent : The parent has terminated.
+
+
+
+
+
+/*ps output before giving input*/
+PID STAT
+4040 S+
+
+/*ps output after giving input*/
+ PID STAT
+ 4040 Z+

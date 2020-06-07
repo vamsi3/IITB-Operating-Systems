@@ -1,0 +1,19 @@
+REPORT
+==================
+
+SIGINT Handled -
+	SIGINT is handled using a signal handler which simply returns without exiting.
+
+cd command - 
+	cd command is implemented using a chdir call in the parent process itself. If more than one args are given after cd, error is raised. If path specified doesn't exist, error is raised.
+
+Rest all commands -
+	These are all directly called using execvp() system call.
+
+> redirection - 
+	I parsed the tokens for ">" and split it into two parts, before ">" and considered the first token after ">" token as the file to write. If more tokens are present after ">" an error is shown and command is not executed. Used the dup2() system call in my implementation.
+
+;; sequence - 
+	Just splitted the token array accroding to ";;" present and executed them as individual commands.
+	Due to some ambiguity, even if one of the middle commmand fails with some error, I have ignored it and execute the next in the sequence. But, this can be changed easily if that was required.
+

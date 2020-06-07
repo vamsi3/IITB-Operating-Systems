@@ -1,0 +1,41 @@
+[testcase3.img] Creating the disk image 
+[testcase3.img] Disk image is successfully creatd 
+[testcase3.img] Disk successfully mounted 
+[testcase3.img] File system created. 
+
+MOUNT-POINT  DEVICE-NAME          DEVICE-NUMBER   FS-NUMBER  FS-NAME              
+0            testcase3.img        3               0          emufs non-encrypted 
+
+[testcase3.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+-----------------------------------------------------------------
+
+File 'file1.txt' Opened 
+File 'file1.txt' Opened 
+
+<file1.txt> Current offset: 0. Writing 512 bytes 
+<file1.txt> Writing completed. Number of bytes wrtitten: 512. Current offset: 512 
+
+<file1.txt> Current offset: 512. Writing 1024 bytes 
+<file1.txt> Writing completed. Number of bytes wrtitten: 1024. Current offset: 1536 
+
+[testcase3.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+file1.txt    1536 	[2 3 4 -1] 	Mon Oct 29 12:51:05 2018
+-----------------------------------------------------------------
+
+<file1.txt> Current offset: 0. Reading 512 bytes 
+Data = [This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--------------------------------------END] 
+<file1.txt> Reading completed. Number of bytes read: 512. Current offset: 512 
+
+<file1.txt> Current offset: 512. Reading 1024 bytes 
+Data = [This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---Reached the end of 1024 bytes--END] 
+<file1.txt> Reading completed. Number of bytes read: 1024. Current offset: 1536 
+
+[testcase3.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+file1.txt    1536 	[2 3 4 -1] 	Mon Oct 29 12:51:05 2018
+-----------------------------------------------------------------
+[testcase3.img] Device closed 
+
+MOUNT-POINT  DEVICE-NAME          DEVICE-NUMBER   FS-NUMBER  FS-NAME

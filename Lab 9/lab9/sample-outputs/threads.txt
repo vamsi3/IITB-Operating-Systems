@@ -1,0 +1,10 @@
+$ ./threads 
+Counter: 97944 
+
+
+$ ./threads 
+./threads 99891
+
+
+$ ./threads 
+./threads 100000

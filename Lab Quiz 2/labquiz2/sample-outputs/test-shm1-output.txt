@@ -1,0 +1,70 @@
+$ test-shm1
+
+------------------------ 
+Shared memory statistics 
+Key	ref	kernel virtual
+.	count	address 
+0	0	 - 
+1	0	 - 
+2	0	 - 
+3	0	 - 
+4	0	 - 
+5	0	 - 
+6	0	 - 
+7	0	 - 
+8	0	 - 
+9	0	 - 
+------------------------ 
+
+pid 14: VA for shared object with key 5: 0x3000 
+------------------------ 
+Shared memory statistics 
+Key	ref	kernel virtual
+.	count	address 
+0	0	 - 
+1	0	 - 
+2	0	 - 
+3	0	 - 
+4	0	 - 
+5	1	0x8df24000
+6	0	 - 
+7	0	 - 
+8	0	 - 
+9	0	 - 
+------------------------ 
+
+pid 14: VA for shared object with key 1: 0x4000 
+------------------------ 
+Shared memory statistics 
+Key	ref	kernel virtual
+.	count	address 
+0	0	 - 
+1	1	0x8df1c000
+2	0	 - 
+3	0	 - 
+4	0	 - 
+5	1	0x8df24000
+6	0	 - 
+7	0	 - 
+8	0	 - 
+9	0	 - 
+------------------------ 
+
+pid 14: VA for shared object with key 1: 0x5000 
+------------------------ 
+Shared memory statistics 
+Key	ref	kernel virtual
+.	count	address 
+0	0	 - 
+1	2	0x8df1c000
+2	0	 - 
+3	0	 - 
+4	0	 - 
+5	1	0x8df24000
+6	0	 - 
+7	0	 - 
+8	0	 - 
+9	0	 - 
+------------------------ 
+
+$ 

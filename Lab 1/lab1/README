@@ -1,0 +1,34 @@
+Lab 1
+------------------------------------------------
+* If you are running this program in SL2(Student Lab 2) machines 
+  login with userid labuser or you can run this program on a 
+  machine with the local disk. Eg: Your laptop.
+
+* lab1.pdf describes the lab statement.
+
+Exercise 1:
+	
+Exercise 2:
+    Programs required for exercise 2 are given in the 
+    subdirectory memory.
+
+Exercise 3:
+    Executables are provided in the subdirectory subprocess.
+
+Exercise 4:
+    All the programs required for exercise 4 are given in the 
+    subdirectory strace.
+
+Exercise 5:
+    Executable required for exercise 5 is given in the subdirectory 
+    files.
+
+Exercise 6:
+	
+Exercise 7:
+    The subdirectory myos contains boot sector programs written in
+    assembly language.
+    Compile the programs using nasm, and run then using QEMU
+
+Exercise 8:
+    

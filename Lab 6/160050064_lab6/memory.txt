@@ -1,0 +1,14 @@
+1.
+
+r is a struct run pointer to which v is assigned. Then r->next is kmem.freelist & kmem.freelist = r imply that this r is added on top of kmem.freelist which indicates r (containing the v address) is added to the freelist thus making this page (addressed by v) free.
+
+2.
+
+PDX(va) extracts first 10 bits of 'va'.
+Now, 'pgdir' is the page directory table, and hence 'pde' is the page directory entry corresponding to va.
+Now, 'pde' carries the *physical* address corresponding to it's page table's first entry.
+Now, PTE_ADDR(*pde) gives pde with last 12 bits (flags) forced to zero.
+Now, p2v converts this physical address to virtual address. (and mentioned earlier, pde carries physical address originally)
+Now, pgtab contains the virtual address corresponding to the base of page table we need.
+Now, PTX(va) is the 11th to 20th bit of va. Hence the value pgtable[PTX(va)] returned is the physical address corresponding to va.
+

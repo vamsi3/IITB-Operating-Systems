@@ -1,0 +1,11 @@
+$ ./p1b 5
+Child 5728 is created (sleeps for 4 seconds)
+Child 5730 is created (sleeps for 7 seconds)
+Child 5729 is created (sleeps for 3 seconds)
+Child 5731 is created (sleeps for 5 seconds)
+Child 5732 is created (sleeps for 9 seconds)
+Child 5729 is exited
+Child 5728 is exited
+Child 5731 is exited
+Child 5730 is exited
+Child 5732 is exited

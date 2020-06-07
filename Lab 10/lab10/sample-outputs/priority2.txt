@@ -1,0 +1,38 @@
+$ ./testcase 10
+Priority of parent process = 1000 
+Process Exiting. pid=4, priority=10, arrival-time=391, first-schedule-time=394, exit-time=484, run-time=91, wait-time=3. 
+Process Exiting. pid=5, priority=9, arrival-time=391, first-schedule-time=484, exit-time=573, run-time=90, wait-time=93. 
+Process Exiting. pid=6, priority=8, arrival-time=391, first-schedule-time=573, exit-time=660, run-time=88, wait-time=182. 
+Process Exiting. pid=7, priority=7, arrival-time=392, first-schedule-time=660, exit-time=748, run-time=89, wait-time=268. 
+Process Exiting. pid=8, priority=6, arrival-time=392, first-schedule-time=748, exit-time=838, run-time=91, wait-time=356. 
+Process Exiting. pid=9, priority=5, arrival-time=392, first-schedule-time=838, exit-time=929, run-time=92, wait-time=446. 
+Process Exiting. pid=10, priority=4, arrival-time=392, first-schedule-time=929, exit-time=1018, run-time=90, wait-time=537. 
+Process Exiting. pid=11, priority=3, arrival-time=393, first-schedule-time=1018, exit-time=1110, run-time=93, wait-time=625. 
+Process Exiting. pid=12, priority=2, arrival-time=393, first-schedule-time=1110, exit-time=1200, run-time=91, wait-time=717. 
+Process Exiting. pid=13, priority=1, arrival-time=394, first-schedule-time=1200, exit-time=1287, run-time=88, wait-time=806. 
+
+All children completed
+Child 0.    pid 4
+Child 1.    pid 5
+Child 2.    pid 6
+Child 3.    pid 7
+Child 4.    pid 8
+Child 5.    pid 9
+Child 6.    pid 10
+Child 7.    pid 11
+Child 8.    pid 12
+Child 9.    pid 13
+
+Exit order 
+pid 4 
+pid 5 
+pid 6 
+pid 7 
+pid 8 
+pid 9 
+pid 10 
+pid 11 
+pid 12 
+pid 13 
+Process Exiting. pid=3, priority=1000, arrival-time=390, first-schedule-time=390, exit-time=1289, run-time=24, wait-time=876. 
+$ 

@@ -1,0 +1,17 @@
+./reader-writer w 5 0 r 5 1 w 5 2
+
+Writer  1, data: 1
+Writer  2, data: 2
+Writer  3, data: 3
+Writer  4, data: 4
+Writer  5, data: 5
+Writer 10, data: 6
+Writer  6, data: 7
+Writer  7, data: 8
+Writer  8, data: 9
+Writer  9, data: 10
+	Reader  4, data: 10
+	Reader  1, data: 10
+	Reader  2, data: 10
+	Reader  5, data: 10
+	Reader  3, data: 10

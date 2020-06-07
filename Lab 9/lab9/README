@@ -1,0 +1,34 @@
+Lab 9. CS333. Autumn 2018
+
+1. lab9.pdf describes the lab statement.
+
+2. The directory 'test-programs' contains sample programs for
+   exercise 1 and 3.
+
+3. The directory 'sample-outputs' contains the samples 
+   outputs for all exercises
+
+4. Input format for reader-writer program,
+   ./reader-writer <r/w> <no-of-threads> <thread-arrival-delay in ms> ...
+   Any number of readers/writers can be added with repetitions 
+   of above mentioned 3 tuple.
+
+   Each thread has to wait for 'thread-arrival-delay' ms before it
+   starts reading or writing. The delay should be inside the thread
+   start function and one of the first activity. Use the given function 
+   'delay' for inducing the delay. 
+   After the delay, the reader threads acquire the reader-writer lock, 
+   print the value of shared data variable, and release the lock.
+   Similarly, the writers acquire the reader-writer lock, increment
+   the shared data variable, display its value, and release the lock.
+
+   Refer the sample outputs for display formats.
+
+5. Sample inputs for reader-writer program
+   a)  ./reader-writer r 25 0
+   b)  ./reader-writer w 25 0
+   c)  ./reader-writer r 25 0 w 5 1 r 5 1
+   d)  ./reader-writer w 5 0 r 5 1 w 5 2
+
+6. Deadline is: 
+   Monday, 8th October 2018 - 05:00 PM

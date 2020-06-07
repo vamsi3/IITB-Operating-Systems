@@ -1,0 +1,56 @@
+$ test-shm4
+
+------------------------ 
+Shared memory statistics 
+Key	ref	kernel virtual
+.	count	address 
+0	0	 - 
+1	0	 - 
+2	0	 - 
+3	0	 - 
+4	0	 - 
+5	0	 - 
+6	0	 - 
+7	0	 - 
+8	0	 - 
+9	0	 - 
+------------------------ 
+
+Child 6: VA of shared object with key 5: 0x3000 
+------------------------ 
+Shared memory statistics 
+Key	ref	kernel virtual
+.	count	address 
+0	0	 - 
+1	0	 - 
+2	0	 - 
+3	0	 - 
+4	0	 - 
+5	1	0x8df28000
+6	0	 - 
+7	0	 - 
+8	0	 - 
+9	0	 - 
+------------------------ 
+
+Parent 5: VA of shared object with key 5: 0x4000 
+------------------------ 
+Shared memory statistics 
+Key	ref	kernel virtual
+.	count	address 
+0	0	 - 
+1	0	 - 
+2	0	 - 
+3	0	 - 
+4	0	 - 
+5	2	0x8df28000
+6	0	 - 
+7	0	 - 
+8	0	 - 
+9	0	 - 
+------------------------ 
+Parent: Message recevied form child : Hello!!!  How are you parent ? 
+ 
+Child: Message recevied form parent : I'm fine. 
+ 
+$ 

@@ -1,0 +1,20 @@
+Exercise 4
+----------
+
+*	strace uses its standard error output mechanism to display the its results.
+	So you need to understand how to redirect error output of a program to a file.
+	Otherwise your program output will be mingled with strace results.
+
+	lsblk 1> temp.txt
+
+	It will redirect the standard output to temp.txt
+	But you need to redirect standard error output to a file.
+
+*	Run strace on program empty.c and redirect the standard error output to a file.
+*	Do the same for hello.c
+*	Find all the system calls made by these programs.
+
+
+	
+
+	

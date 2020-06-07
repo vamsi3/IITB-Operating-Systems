@@ -1,0 +1,38 @@
+$ ./priority1 10
+Priority of parent process = 1000 
+Exiting. pid=13, prio=10, AT=1998, IWT=0, FST=1998, ET=2117, RT=119, TWT=0.
+Exiting. pid=12, prio=9, AT=1997, IWT=119, FST=2116, ET=2234, RT=119, TWT=118.
+Exiting. pid=11, prio=8, AT=1997, IWT=237, FST=2234, ET=2352, RT=119, TWT=236.
+Exiting. pid=10, prio=7, AT=1997, IWT=355, FST=2352, ET=2470, RT=119, TWT=354.
+Exiting. pid=9, prio=6, AT=1996, IWT=474, FST=2470, ET=2588, RT=119, TWT=473.
+Exiting. pid=8, prio=5, AT=1996, IWT=592, FST=2588, ET=2707, RT=120, TWT=591.
+Exiting. pid=7, prio=4, AT=1996, IWT=711, FST=2707, ET=2826, RT=120, TWT=710.
+Exiting. pid=6, prio=3, AT=1995, IWT=832, FST=2827, ET=2946, RT=120, TWT=831.
+Exiting. pid=5, prio=2, AT=1995, IWT=951, FST=2946, ET=3064, RT=119, TWT=950.
+Exiting. pid=4, prio=1, AT=1995, IWT=1069, FST=3064, ET=3182, RT=119, TWT=1068.
+
+All children completed
+Child 0.    pid 4
+Child 1.    pid 5
+Child 2.    pid 6
+Child 3.    pid 7
+Child 4.    pid 8
+Child 5.    pid 9
+Child 6.    pid 10
+Child 7.    pid 11
+Child 8.    pid 12
+Child 9.    pid 13
+
+Exit order 
+pid 13 
+pid 12 
+pid 11 
+pid 10 
+pid 9 
+pid 8 
+pid 7 
+pid 6 
+pid 5 
+pid 4 
+Exiting. pid=3, prio=1000, AT=1993, IWT=1, FST=1994, ET=3185, RT=65, TWT=1127.
+$ 

@@ -1,0 +1,56 @@
+SAMPLE OUTPUTS
+==========================
+
+vamsi-turtle>mkdir test
+
+vamsi-turtle>ls
+turtle turtle.c
+
+vamsi-turtle>cd test
+
+vamsi-turtle>pwd
+/home/vamsi/lab3/test
+
+vamsi-turtle>cd ..
+
+vamsi-turtle>pwd
+/home/vamsi/lab3
+
+vamsi-turtle>cd
+Wrong number of arguments
+
+vamsi-turtle>rm test
+rm: cannot remove 'test': Is a directory
+
+vamsi-turtle>rmdir test
+
+vamsi-turtle>ls
+turtle turtle.c
+
+vamsi-turtle>sleep 5
+
+vamsi-turtle>echo "Hello"
+"Hello"
+
+vamsi-turtle>echo "Hello" > hello.txt
+
+vamsi-turtle>ls
+hello.txt turtle turtle.c
+
+vamsi-turtle>cat hello.txt
+"Hello"
+
+vamsi-turtle>cd hello.txt
+Some error
+
+vamsi-turtle>cat hi.text 
+cat: hi.text: No such file or directory
+
+vamsi-turtle>sleep 5 ;; cat hello.txt ;; sleep 1 ;; echo "hi" ;; ls
+"Hello"
+"hi"
+hello.txt turtle  turtle.c
+
+vamsi-turtle>cat hi.txt ;; echo "You know nothing Jon Snow"
+cat: hi.txt: No such file or directory
+"You know nothing Jon Snow"

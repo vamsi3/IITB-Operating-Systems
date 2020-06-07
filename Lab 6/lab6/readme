@@ -1,0 +1,22 @@
+Lab 6. CS333. Autumn 2018
+
+
+1. Download the source code from
+   'https://www.cse.iitb.ac.in/~puru/courses/autumn18/labs/xv6-public.tar.gz'
+
+2. Source code companion books is available at 
+   'https://www.cse.iitb.ac.in/~puru/courses/autumn18/labs/xv6-rev10.pdf'
+
+3. lab6.pdf describes the lab statement.
+
+4. The directory 'test-programs' contains the test 
+   programs fort part 1 and part 2.
+
+5. The directory 'sample-outputs' contains the samples 
+   outputs.
+
+6. Implement exercise 1.b and 1.c in 'proc-size.c' and 
+   'vm-block.c' respectively.
+
+7. Deadline is: 
+    Friday, Monday, 27t August 2018 - 05:00 PM

@@ -1,0 +1,14 @@
+i.		Obtaining a spinlock	-	acquire()
+		Releasing a spinlock	-	release()
+
+ii.		The holding() function checks whether a given lock is "actually in locked state" and more importantly if the lock is "held" by the cpu calling this function
+
+iii.	the code to acquire() in xv6 contains "  if(holding(lk)) panic("acquire");  ". This means if two acquires are made simultaneously in xv6, this snippet of acquire function in second acquire call will cause a "panic".
+
+iv.		xchg is implemented in x86.h which calls the assembly instruction corresponding to it. pushcli() and popcli() are defined in spinlock.c itself which use the cli() and sti() functions (defined in x86.h) to call their assembly instructions.
+	
+	- the xchg (exchange) instruction takes a memory address and a value. It replaces the value in the memory to the value given and returns the value originally present there in the memory, all in one instruction.
+	- pushcli() first disables the interrupts using cli() and increments a count to number of locks yet (ncli).
+	- Similarly, popcli() does almost the reverse. If ncli is zero, it calls sti() to enable the interrupts back.
+
+v.		This enables interrupts (handling) during a lock taken. So, this may lead to "deadlock" situations. For example, while a lock is acquired by kernel if an interrupt to acquire the same lock occurs, then in this modified case, interrupt is handled. While handling the interrupt due to acquire, it never gets the lock as the kernel left the earlier lock unreleased before handing the interrupt. Therefore, similar scenarios lead to deadlock situations.

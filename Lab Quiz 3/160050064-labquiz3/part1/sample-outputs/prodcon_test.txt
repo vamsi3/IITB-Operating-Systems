@@ -1,0 +1,335 @@
+$   ./prodcon 1 1 1 1 1
+Process: 4, sem[0]: 0 
+				[4]: P: 1 1 1 
+Process: 4, sem[0]: 1 
+Process: 4, sem[2]: 1 
+Process: 5, sem[0]: 0 
+				[5]: C: 1 1 0 
+Process: 5, sem[0]: 1 
+Process: 5, sem[1]: 1 
+
+
+$   ./prodcon 1 3 1 1 3
+Process: 7, sem[0]: 0 
+				[7]: P: 1 1 1 
+Process: 7, sem[0]: 1 
+Process: 7, sem[2]: 1 
+Process: 11, sem[0]: 0 
+Process: 10, sem[2]: 0 
+				[11]: C: 1 2 0 
+Process: 11, sem[0]: 1 
+Process: 11, sem[1]: 1 
+Process: 8, sem[1]: 0 
+Process: 8, sem[0]: 0 
+				[8]: P: 2 1 1 
+Process: 8, sem[0]: 1 
+Process: 8, sem[2]: 1 
+Process: 10, sem[2]: 0 
+Process: 10, sem[0]: 0 
+				[10]: C: 1 1 0 
+Process: 10, sem[0]: 1 
+Process: 10, sem[1]: 1 
+Process: 9, sem[1]: 0 
+Process: 9, sem[0]: 0 
+				[9]: P: 3 1 1 
+Process: 9, sem[0]: 1 
+Process: 9, sem[2]: 1 
+Process: 12, sem[2]: 0 
+Process: 12, sem[0]: 0 
+				[12]: C: 1 3 0 
+Process: 12, sem[0]: 1 
+Process: 12, sem[1]: 1 
+
+
+$   ./prodcon 3 1 1 1 1
+Process: 14, sem[0]: 0 
+				[14]: P: 1 1 1 
+Process: 14, sem[0]: 1 
+Process: 14, sem[2]: 1 
+Process: 15, sem[0]: 0 
+				[15]: C: 1 1 0 
+Process: 15, sem[0]: 1 
+Process: 15, sem[1]: 1 
+
+
+$   ./prodcon 3 3 1 1 3
+Process: 17, sem[0]: 0 
+				[17]: P: 1 1 1 
+Process: 17, sem[0]: 1 
+Process: 17, sem[2]: 1 
+Process: 18, sem[0]: 0 
+				[18]: P: 2 1 2 
+Process: 18, sem[0]: 1 
+Process: 18, sem[2]: 2 
+Process: 19, sem[0]: 0 
+				[19]: P: 3 1 3 
+Process: 19, sem[0]: 1 
+Process: 19, sem[2]: 3 
+Process: 20, sem[0]: 0 
+				[20]: C: 1 1 2 
+Process: 20, sem[0]: 1 
+Process: 20, sem[1]: 1 
+Process: 21, sem[0]: 0 
+				[21]: C: 1 2 1 
+Process: 21, sem[0]: 1 
+Process: 21, sem[1]: 2 
+Process: 22, sem[0]: 0 
+				[22]: C: 1 3 0 
+Process: 22, sem[0]: 1 
+Process: 22, sem[1]: 3 
+
+
+$   ./prodcon 6 3 1 3 1
+Process: 24, sem[0]: 0 
+				[24]: P: 1 1 1 
+Process: 24, sem[0]: 1 
+Process: 24, sem[2]: 1 
+Process: 25, sem[0]: 0 
+				[25]: P: 2 1 2 
+Process: 25, sem[0]: 1 
+Process: 25, sem[2]: 2 
+Process: 26, sem[0]: 0 
+				[26]: P: 3 1 3 
+Process: 26, sem[0]: 1 
+Process: 26, sem[2]: 3 
+Process: 27, sem[0]: 0 
+				[27]: C: 1 1 2 
+Process: 27, sem[0]: 1 
+Process: 27, sem[1]: 1 
+Process: 28, sem[0]: 0 
+				[28]: C: 2 1 1 
+Process: 28, sem[0]: 1 
+Process: 28, sem[1]: 2 
+Process: 29, sem[0]: 0 
+				[29]: C: 3 1 0 
+Process: 29, sem[0]: 1 
+Process: 29, sem[1]: 3 
+
+
+$   ./prodcon 8 3 1 1 3
+Process: 31, sem[0]: 0 
+				[31]: P: 1 1 1 
+Process: 31, sem[0]: 1 
+Process: 31, sem[2]: 1 
+Process: 32, sem[0]: 0 
+				[32]: P: 2 1 2 
+Process: 32, sem[0]: 1 
+Process: 32, sem[2]: 2 
+Process: 33, sem[0]: 0 
+				[33]: P: 3 1 3 
+Process: 33, sem[0]: 1 
+Process: 33, sem[2]: 3 
+Process: 34, sem[0]: 0 
+				[34]: C: 1 1 2 
+Process: 34, sem[0]: 1 
+Process: 34, sem[1]: 1 
+Process: 35, sem[0]: 0 
+				[35]: C: 1 2 1 
+Process: 35, sem[0]: 1 
+Process: 35, sem[1]: 2 
+Process: 36, sem[0]: 0 
+				[36]: C: 1 3 0 
+Process: 36, sem[0]: 1 
+Process: 36, sem[1]: 3 
+
+
+$   ./prodcon 4 4 1 3 1
+Process: 38, sem[0]: 0 
+				[38]: P: 1 1 1 
+Process: 38, sem[0]: 1 
+Process: 38, sem[2]: 1 
+Process: 39, sem[0]: 0 
+				[39]: P: 2 1 2 
+Process: 39, sem[0]: 1 
+Process: 39, sem[2]: 2 
+Process: 40, sem[0]: 0 
+				[40]: P: 3 1 3 
+Process: 40, sem[0]: 1 
+Process: 40, sem[2]: 3 
+Process: 42, sem[0]: 0 
+				[42]: C: 1 1 2 
+Process: 42, sem[0]: 1 
+Process: 42, sem[1]: 1 
+Process: 43, sem[0]: 0 
+				[43]: C: 2 1 1 
+Process: 43, sem[0]: 1 
+Process: 43, sem[1]: 2 
+Process: 44, sem[0]: 0 
+				[44]: C: 3 1 0 
+Process: 44, sem[0]: 1 
+Process: 44, sem[1]: 3 
+Process: 41, sem[0]: 0 
+				[41]: P: 4 1 1 
+Process: 41, sem[0]: 1 
+Process: 41, sem[2]: 4 
+
+
+$   ./prodcon 8 4 1 3 1
+Process: 46, sem[0]: 0 
+				[46]: P: 1 1 1 
+Process: 46, sem[0]: 1 
+Process: 46, sem[2]: 1 
+Process: 47, sem[0]: 0 
+				[47]: P: 2 1 2 
+Process: 47, sem[0]: 1 
+Process: 47, sem[2]: 2 
+Process: 48, sem[0]: 0 
+				[48]: P: 3 1 3 
+Process: 48, sem[0]: 1 
+Process: 48, sem[2]: 3 
+Process: 49, sem[0]: 0 
+				[49]: P: 4 1 4 
+Process: 49, sem[0]: 1 
+Process: 49, sem[2]: 4 
+Process: 50, sem[0]: 0 
+				[50]: C: 1 1 3 
+Process: 50, sem[0]: 1 
+Process: 50, sem[1]: 1 
+Process: 51, sem[0]: 0 
+				[51]: C: 2 1 2 
+Process: 51, sem[0]: 1 
+Process: 51, sem[1]: 2 
+Process: 52, sem[0]: 0 
+				[52]: C: 3 1 1 
+Process: 52, sem[0]: 1 
+Process: 52, sem[1]: 3 
+
+
+$  ./prodcon 1 1 3 3 1
+Process: 68, sem[0]: 0 
+				[68]: P: 1 1 1 
+Process: 68, sem[0]: 1 
+Process: 68, sem[2]: 1 
+Process: 71, sem[0]: 0 
+Process: 72, sem[2]: 0 
+				[71]: C: 1 1 0 
+Process: 71, sem[0]: 1 
+Process: 71, sem[1]: 1 
+Process: 69, sem[1]: 0 
+Process: 69, sem[0]: 0 
+				[69]: P: 1 2 1 
+Process: 69, sem[0]: 1 
+Process: 69, sem[2]: 1 
+Process: 72, sem[2]: 0 
+Process: 72, sem[0]: 0 
+				[72]: C: 2 1 0 
+Process: 72, sem[0]: 1 
+Process: 72, sem[1]: 1 
+Process: 70, sem[1]: 0 
+Process: 70, sem[0]: 0 
+				[70]: P: 1 3 1 
+Process: 70, sem[0]: 1 
+Process: 70, sem[2]: 1 
+Process: 73, sem[2]: 0 
+Process: 73, sem[0]: 0 
+				[73]: C: 3 1 0 
+Process: 73, sem[0]: 1 
+Process: 73, sem[1]: 1 
+
+
+$   ./prodcon 3 4 1 4 1
+Process: 75, sem[0]: 0 
+				[75]: P: 1 1 1 
+Process: 75, sem[0]: 1 
+Process: 75, sem[2]: 1 
+Process: 76, sem[0]: 0 
+				[76]: P: 2 1 2 
+Process: 76, sem[0]: 1 
+Process: 76, sem[2]: 2 
+Process: 77, sem[0]: 0 
+				[77]: P: 3 1 3 
+Process: 77, sem[0]: 1 
+Process: 77, sem[2]: 3 
+Process: 78, sem[0]: 0 
+				[78]: P: 4 1 4 
+Process: 78, sem[0]: 1 
+Process: 78, sem[2]: 4 
+Process: 79, sem[0]: 0 
+				[79]: C: 1 1 3 
+Process: 79, sem[0]: 1 
+Process: 79, sem[1]: 1 
+Process: 80, sem[0]: 0 
+				[80]: C: 2 1 2 
+Process: 80, sem[0]: 1 
+Process: 80, sem[1]: 2 
+Process: 81, sem[0]: 0 
+				[81]: C: 3 1 1 
+Process: 81, sem[0]: 1 
+Process: 81, sem[1]: 3 
+Process: 82, sem[0]: 0 
+				[82]: C: 4 1 0 
+Process: 82, sem[0]: 1 
+Process: 82, sem[1]: 4 
+
+
+$   ./prodcon 3 1 4 1 3
+Process: 84, sem[0]: 0 
+				[84]: P: 1 1 1 
+Process: 84, sem[0]: 1 
+Process: 84, sem[2]: 1 
+Process: 85, sem[0]: 0 
+				[85]: P: 1 2 2 
+Process: 85, sem[0]: 1 
+Process: 85, sem[2]: 2 
+Process: 86, sem[0]: 0 
+				[86]: P: 1 3 3 
+Process: 86, sem[0]: 1 
+Process: 86, sem[2]: 3 
+Process: 87, sem[0]: 0 
+				[87]: P: 1 4 4 
+Process: 87, sem[0]: 1 
+Process: 87, sem[2]: 4 
+Process: 88, sem[0]: 0 
+				[88]: C: 1 1 3 
+Process: 88, sem[0]: 1 
+Process: 88, sem[1]: 1 
+Process: 89, sem[0]: 0 
+				[89]: C: 1 2 2 
+Process: 89, sem[0]: 1 
+Process: 89, sem[1]: 2 
+Process: 90, sem[0]: 0 
+				[90]: C: 1 3 1 
+Process: 90, sem[0]: 1 
+Process: 90, sem[1]: 3 
+
+
+$   ./prodcon 3 1 4 1 5
+Process: 102, sem[0]: 0 
+				[102]: P: 1 1 1 
+Process: 102, sem[0]: 1 
+Process: 102, sem[2]: 1 
+Process: 103, sem[0]: 0 
+				[103]: P: 1 2 2 
+Process: 103, sem[0]: 1 
+Process: 103, sem[2]: 2 
+Process: 104, sem[0]: 0 
+				[104]: P: 1 3 3 
+Process: 104, sem[0]: 1 
+Process: 104, sem[2]: 3 
+Process: 106, sem[0]: 0 
+				[106]: C: 1 1 2 
+Process: 106, sem[0]: 1 
+Process: 106, sem[1]: 1 
+Process: 105, sem[1]: 0 
+Process: 105, sem[0]: 0 
+				[105]: P: 1 4 3 
+Process: 105, sem[0]: 1 
+Process: 105, sem[2]: 4 
+Process: 107, sem[0]: 0 
+				[107]: C: 1 2 2 
+Process: 107, sem[0]: 1 
+Process: 107, sem[1]: 1 
+Process: 108, sem[0]: 0 
+				[108]: C: 1 3 1 
+Process: 108, sem[0]: 1 
+Process: 108, sem[1]: 2 
+Process: 109, sem[0]: 0 
+Process: 110, sem[2]: 3 
+Process: 110, sem[2]: 2 
+Process: 110, sem[2]: 1 
+Process: 110, sem[2]: 0 
+				[109]: C: 1 4 0 
+Process: 109, sem[0]: 1 
+Process: 109, sem[1]: 3 
+
+[Did not finish in the last case due more consumption than produce]

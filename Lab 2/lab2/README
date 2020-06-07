@@ -1,0 +1,14 @@
+lab 2 : The matter of process
+--------------------------------
+* lab2.pdf describes the lab statement.
+* The directory 'sample-outputs contains' sample outputs
+  for all the exercises. 
+* You are given with a program 'mycat.c' which is required
+  to complete the exercises 3 and 4.
+* fd.jpg shows the file descriptor table and file table entries
+  of parent and child process.
+
+
+
+
+

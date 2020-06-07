@@ -1,0 +1,44 @@
+$./p1a
+
+^C
+Interrupt SIGINT received. 
+Do you really want to quit (y|n)?
+n
+
+^C
+Interrupt SIGINT received. 
+Do you really want to quit (y|n)?
+n
+
+^C
+Interrupt SIGINT received. 
+Do you really want to quit (y|n)?
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+$./p1a
+
+Interrupt SIGTERM received. 
+Do you really want to quit (y|n)?
+n
+
+^C
+Interrupt SIGINT received. 
+Do you really want to quit (y|n)?
+n
+
+Interrupt SIGTERM received. 
+Do you really want to quit (y|n)?
+y
+

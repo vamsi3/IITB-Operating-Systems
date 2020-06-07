@@ -1,0 +1,5 @@
+$ ./sigtest1
+[3] Parent waits for 5 seconds 
+[3] Parent sends signal to child 
+Child: Signal handler invoked !!!. signal type: 1 
+$

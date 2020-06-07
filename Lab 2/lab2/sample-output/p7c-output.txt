@@ -1,0 +1,24 @@
+$./p7c 10
+Parent is : 7590 
+Number of children: 10 
+Child 7591 is created 
+Child 7592 is created 
+Child 7593 is created 
+Child 7594 is created 
+Child 7595 is created 
+Child 7596 is created 
+Child 7597 is created 
+Child 7598 is created 
+Child 7599 is created 
+Child 7600 is created 
+Child 7600 exited 
+Child 7599 exited 
+Child 7598 exited 
+Child 7597 exited 
+Child 7596 exited 
+Child 7595 exited 
+Child 7594 exited 
+Child 7593 exited 
+Child 7592 exited 
+Child 7591 exited 
+Parent exited

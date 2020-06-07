@@ -1,0 +1,6 @@
+vamsikrishna@sl2-54:~/Downloads/160050064_lab9$ ./a.out 
+Counter: 100000 
+vamsikrishna@sl2-54:~/Downloads/160050064_lab9$ ./a.out 
+Counter: 100000 
+vamsikrishna@sl2-54:~/Downloads/160050064_lab9$ ./a.out 
+Counter: 100000 

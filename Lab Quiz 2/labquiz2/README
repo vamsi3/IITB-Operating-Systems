@@ -1,0 +1,86 @@
+CS 333 Lab Quiz #2, 3ed Sept. 2018
+-----------------------------------
+
+-1. Some of the following variable and function declarations appear
+    in the xv6 tar file of this quiz. You are free to use or not use
+    the code fragments. All such code is by default appears as comments.
+
+0.  The ps_entry structure that holds details of a single process 
+    is defined as follows. Need multiple of this for getps to work.
+
+    struct ps_entry
+    {
+      int pid;
+      int ppid;
+      uint sz;
+      enum procstate state;
+      char name[16];
+    };
+
+
+1.  Declare the following structure to maintain shared memory
+    related meta-data.
+
+    struct shm_entry
+    {
+      int   ref;        // number of virtual pages mapped to this shared page
+      char *addr;       // kernel virtual address of shared page
+    };
+
+    struct shm_entry shm[10];  // 10 pages of sharebable space across all processes
+                               // 'key' is the index identifying each page
+
+2.  You will have to modify the following files (and maybe more),
+    vm.c, proc.c, sysproc.c
+
+3.  The system call shm_get(key), requests mapping to a shared page, 
+    the page corresponding to the value of key.
+
+    Initially, no shared pages are allocated for any key.
+    First requests for pages using a key should allocate a kernel page,
+    and use the corresponding physical page to map it on a user virtual address.
+
+4.  The system call implementation of shm_get(key) should do the following,
+
+   - determine user virtual page address for mapping shared page
+     - if current address is not page-aligned, skip to a page-aligned
+       address (this will create a hole, let it be)
+       e.g., if sz=4000, change sz to 4096 (page-aligned address), 
+             a hole of 96 virtual address is created.
+       page-alignment is required as mappages works at page granularity.
+   - call shm_growproc(key)
+
+   - shm_growproc 
+     - copy existing growproc() and extend it to,
+       call shm_allocuvm(key, ...)
+       this is a copy of allocuvm, but with the new 'key' argument
+
+   - shm_allocuvm(key, ...)
+     - determine if page exists for key, if not allocate one.
+     - get physical page and map it to user virtual address
+     - increment reference count for key entry
+
+5. Modify deallocvm(...), which will be called on process exit (in our case)
+   to update shm_entry metadata.
+
+   - For each page determine if page is mapped to shared area.
+     If so, decrement reference count, free shared physical page
+     when reference count is zero.
+     Hint: kfree will have to be called with kernel virtual address.
+
+6. Implement system call shm_stat that prints the meta-data values
+   for each shm_entry.
+
+7.  List of functions to update/modify
+
+    sys_shm_get      // takes integer single argument  (they key)
+    sys_shm_stat     // no arguments
+
+    shm_growproc(key)
+    shm_allocuvm(key, pde_t* pgdir, uint oldsz, uint newsz)
+    deallocuvm(pde_t* pgdir, uint oldsz, uint newsz)
+
+
+8. The directory 'test-programs' contains test programs for both part 1 
+   and part2, and their outputs are available in the directory 
+   'sample-outputs'

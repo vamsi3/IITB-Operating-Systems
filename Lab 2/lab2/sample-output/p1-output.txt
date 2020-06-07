@@ -1,0 +1,5 @@
+$./p1
+Parent : My process ID is : 12345 
+Parent : The child process ID is : 15644
+Child: My process ID is : 15644 
+Child : The parent process ID is : 12345

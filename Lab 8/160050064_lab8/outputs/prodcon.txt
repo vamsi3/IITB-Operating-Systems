@@ -1,0 +1,40 @@
+********************************************************************
+Initially input1 input2 contents are t1-f1.txt and t1-f2.txt here.
+********************************************************************
+
+$ prodcon input1 input2
+[81]: Produced an item. Curernt buffer size: 1
+[80]: Produced an item. Curernt buffer size: 2
+[80]: Produced an item. Curernt buffer size: 3
+[81]: Produced an item. Curernt buffer size: 4
+[81]: Produced an item. Curernt buffer size: 5
+[80]: Produced an item. Curernt buffer size: 6
+[81]: Produced an item. Curernt buffer size: 7
+[80]: Produced an item. Curernt buffer size: 8
+[81]: Produced an item. Curernt buffer size: 9
+[81]: Produced an item. Curernt buffer size: 10
+[80]: Consumed an item. Curernt buffer size: 9
+[81]: Produced an item. Curernt buffer size: 10
+[80]: Consumed an item. Curernt buffer size: 9
+[81]: Produced an item. Curernt buffer size: 10
+
+********************************************************************
+Changed input1 input2 contents to t2-f1.txt and t2-f2.txt here.
+********************************************************************
+
+$ prodcon input1 input2
+[4]: Produced an item. Curernt buffer size: 1
+[3]: Consumed an item. Curernt buffer size: 0
+[4]: Produced an item. Curernt buffer size: 1
+[3]: Consumed an item. Curernt buffer size: 0
+[4]: Produced an item. Curernt buffer size: 1
+[3]: Consumed an item. Curernt buffer size: 0
+[3]: Produced an item. Curernt buffer size: 1
+[4]: Consumed an item. Curernt buffer size: 0
+[4]: Produced an item. Curernt buffer size: 1
+[3]: Consumed an item. Curernt buffer size: 0
+[4]: Produced an item. Curernt buffer size: 1
+[3]: Consumed an item. Curernt buffer size: 0
+[4]: Produced an item. Curernt buffer size: 1
+[4]: Produced an item. Curernt buffer size: 2
+$ 

@@ -1,0 +1,6 @@
+$./p4a sample-output/hello.txt
+
+Parent: File opened. fd=3.
+Parent 24418: writing to file 3
+Child 24419: writing to file 3
+Parent : The child has terminated.

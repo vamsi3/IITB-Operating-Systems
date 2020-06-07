@@ -1,0 +1,6 @@
+p1c EXPLANATION
+----------------------------
+
+If the child process terminates earlier than the grandchild, then when the grandchild terminates - the SIGCHLD signal is sent to it's (previous) which we created is not alive, and hence the grandchild's termination is not printed.
+
+In the other case, the SIGCHLD signals of grandchild and child reach the child and parent respectively and behave as expected. 

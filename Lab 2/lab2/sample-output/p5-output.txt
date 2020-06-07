@@ -1,0 +1,9 @@
+$./p5 
+Parent : My process ID is : 27028
+Parent : The child process ID is : 27029
+Child : My process ID is : 27029
+Child : The parent process ID is : 27028
+Parent : The parent has terminated.
+
+Child : My process ID is : 27029
+Child : The parent process ID is : 1

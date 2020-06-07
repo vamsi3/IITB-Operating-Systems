@@ -1,0 +1,28 @@
+Lab #11. CS333. Autumn 2018
+--------------------------
+
+1. lab11.pdf describes the lab statement.
+
+2. Compile and executes the programs using the following commands:
+   $ gcc emufs.c disk.c testcase-common.c testcaseY.c -o testcaseY
+   $ ./testcaseY
+
+3. Delete the disk images created by a testcase before executing the
+   same testcase again.
+  
+4. The directory 'test-cases' contains test cases to the correctness
+   of your implementation.
+   
+5. The directory 'sample-output' contains the sample outputs.
+
+6. For testcase0, an image file, testcase0.img, is given and can be
+   used to test implementation of the file system API.
+
+7. Use the 'less' command to check contents of the emulated disk
+   $ less ./testcase0.img 
+
+8. Try replacing with any other existing file to emulate the disk.
+   Reason about the output.
+
+9. Rerun the testcase 1 to 5 by setting the 'TEST_FS_NUMBER' to 'EMUFS_ENCRYPTED'  
+

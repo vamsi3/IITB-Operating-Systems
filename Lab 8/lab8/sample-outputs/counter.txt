@@ -1,0 +1,23 @@
+$ counter 1
+
+Counter without lock 
+Data[0] = 11016
+
+$ 
+
+
+
+
+
+
+
+
+
+
+
+$ counter 2
+
+Counter with mutex lock 
+Data[0] = 20000
+
+$

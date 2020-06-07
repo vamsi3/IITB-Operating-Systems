@@ -1,0 +1,30 @@
+Lab 10. CS333. Autumn 2018
+--------------------------
+
+1. lab10.pdf describes the lab statement.
+
+2. The directory 'test-programs' contains a sample test
+   program to verify correctness of part 1 and part 2
+
+3. The default signal handler prints the following message.
+   Default handler: PID: <pid>. Signal type: <signal type> 
+
+4. To verify part 2 implementation, run different test case
+   using the given test program 'priority.c' by changing the 
+   priority of child processes like,
+
+   1. Child i has priority (i+1);
+   	i.e., priority of children 0 to n-1 varies from 1 to n
+
+   2. Child i has priority N-i (where N is number of children)
+      i.e.,. priority of children 0 to N-1 varies from N to 1
+
+   3. All children have same priority, set to 5.
+
+
+   Run this test program as 
+   ./priority <number-of-children>
+   Eg. : $./priority 10
+
+5. The directory 'sample-outputs' contains sample outputs for
+   both part1 and part2. 

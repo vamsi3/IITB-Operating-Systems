@@ -1,0 +1,24 @@
+$./p7a 10
+Parent is : 6871 
+Number of children: 10 
+Child 6872 is created 
+Child 6873 is created 
+Child 6874 is created 
+Child 6875 is created 
+Child 6876 is created 
+Child 6877 is created 
+Child 6878 is created 
+Child 6879 is created 
+Child 6880 is created 
+Child 6881 is created 
+Child 6881 exited 
+Child 6880 exited 
+Child 6879 exited 
+Child 6878 exited 
+Child 6877 exited 
+Child 6876 exited 
+Child 6875 exited 
+Child 6874 exited 
+Child 6873 exited 
+Child 6872 exited 
+Parent exited

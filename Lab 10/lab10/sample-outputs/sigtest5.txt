@@ -1,0 +1,11 @@
+$ ./sigtest5
+ 
+Signal handler 1 called !!!. signal type: 5 
+Signal handler 2 called !!!. signal type: 6 
+ 
+Signal handler 1 called !!!. signal type: 10 
+Signal handler 2 called !!!. signal type: 11 
+ 
+Signal handler 1 called !!!. signal type: 1 
+Signal handler 2 called !!!. signal type: 1 
+$ 

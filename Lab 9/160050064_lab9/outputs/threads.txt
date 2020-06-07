@@ -1,0 +1,6 @@
+vamsikrishna@sl2-54:~/Downloads/lab9/test-programs$ ./a.out 
+Counter: 98965 
+vamsikrishna@sl2-54:~/Downloads/lab9/test-programs$ ./a.out 
+Counter: 99786 
+vamsikrishna@sl2-54:~/Downloads/lab9/test-programs$ ./a.out 
+Counter: 99150 

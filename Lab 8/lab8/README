@@ -1,0 +1,27 @@
+Lab 8. CS333. Autumn 2018
+
+
+1. Source code companion books is available at 
+   'https://www.cse.iitb.ac.in/~puru/courses/autumn18/labs/xv6-rev10.pdf'
+
+2. lab8.pdf describes the lab statement.
+
+3. The directory 'test-programs' contains sample programs for
+   exercise 1 and 2.
+
+   $./counter 1		//	counter with out locks
+   $./counter 2		//	counter with mutex lock
+
+   $./lock-and-delay 1	//	Lock and delay with spin lock
+   $./lock-and-delay 2	//	Lock and delay with mutex
+
+   $./prodcon <file1.txt> <file2.txt>
+
+4. The directory 'sample-outputs' contains the samples 
+   outputs of exercise 1 and 2.
+
+5. The directory 'test-cases' contains the input files for
+   testing the exercise 2.
+
+6. Deadline is: 
+   Monday, 1st October 2018 - 05:00 PM

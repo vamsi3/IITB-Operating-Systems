@@ -1,0 +1,14 @@
+$ ps-test2
+
+PID	PPID	Size	State		Name 
+1	0	12288	Sleeping 	init 
+2	1	16384	Sleeping 	sh 
+11	2	12288	Sleeping 	ps-test2 
+12	11	12288	Zombie  	ps-test2 
+13	11	12288	Zombie  	ps-test2 
+14	11	12288	Zombie  	ps-test2 
+15	11	12288	Zombie  	ps-test2 
+16	11	12288	Zombie  	ps-test2 
+17	11	12288	Running 	ps 
+
+$ 

@@ -1,0 +1,36 @@
+./reader-writer r 25 0 w 5 1 r 5 1
+	Reader  2, data: 0
+	Reader  6, data: 0
+	Reader 10, data: 0
+	Reader 11, data: 0
+	Reader  3, data: 0
+	Reader  4, data: 0
+	Reader  1, data: 0
+	Reader 13, data: 0
+	Reader 15, data: 0
+	Reader  5, data: 0
+	Reader 18, data: 0
+	Reader  7, data: 0
+	Reader 21, data: 0
+	Reader  8, data: 0
+	Reader 23, data: 0
+	Reader  9, data: 0
+	Reader 25, data: 0
+	Reader 12, data: 0
+	Reader 14, data: 0
+	Reader 16, data: 0
+	Reader 17, data: 0
+	Reader 19, data: 0
+	Reader 20, data: 0
+	Reader 22, data: 0
+	Reader 24, data: 0
+Writer  1, data: 1
+Writer  2, data: 2
+Writer  4, data: 3
+Writer  3, data: 4
+Writer  5, data: 5
+	Reader 27, data: 5
+	Reader 29, data: 5
+	Reader 28, data: 5
+	Reader 26, data: 5
+	Reader 30, data: 5

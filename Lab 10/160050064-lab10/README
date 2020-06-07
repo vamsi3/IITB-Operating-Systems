@@ -1,0 +1,2 @@
+I have created two separate xv6 folders each part because the scheduler functionality change in both parts.
+Except scheduler, rest of the code is exactly same for both the parts..

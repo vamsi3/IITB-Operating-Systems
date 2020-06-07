@@ -1,0 +1,44 @@
+$ ./barrier-testcase1 
+Sum = 10
+
+
+
+$ ./barrier-testcase2
+Sum1 = 1000 
+Sum2 = 11000
+
+
+
+$ ./barrier-testcase3 
+Thread 0: I am going to wait for 5s beforing calling 'barrier_wait()'
+Thread 0: I am calling barrier_wait(). Everbody ready to cross the barrier.
+Looks good !
+
+
+
+$ ./barrier-testcase4 
+Sum: 2000
+
+
+
+$ ./barrier-testcase5 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello 
+Thread 1: Hii 
+Thread 2: 	Hello

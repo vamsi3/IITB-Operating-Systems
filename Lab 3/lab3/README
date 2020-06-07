@@ -1,0 +1,94 @@
+=================================================================================
+				README
+=================================================================================
+
+*  There is a lab3.pdf which contains the problem statement.
+
+*  There are two parts in this lab. Check the deadlines of the 
+   two parts, and refer the given refrences and man pages for
+   more details.
+
+*  Also we have provided the sample turtle binary to understand
+   the working of the shell.
+
+*  Here are some sample testcases for part2, turtle, which you 
+   should try on your shell. Try running these on the provided 
+   binary first to understand what is happening.
+
+*  In addition to these you should try your own testcases and 
+   submit them.
+
+*  Some commands with sample output.
+
+   turtle>mkdir test
+
+   turtle>ls
+   make-tokens.c  turtle  turtle.c README test
+
+   turtle>cd test
+   
+   turtle>pwd
+   /home/cs333/labs/lab3/test
+   
+   turtle>cd ..
+
+   turtle>pwd
+   /home/cs333/labs/lab3
+
+   turtle>cd
+   Wrong number of arguments
+
+   turtle>rm test
+   rm: cannot remove 'test': Is a directory
+   Error
+
+   turtle>rmdir test
+
+   turtle>ls
+   make-tokens.c sample-output turtle turtle.c README 
+
+   turtle>sleep 5
+
+   turtle>echo "Hello"
+   "Hello"
+
+   turtle>echo "Hello" > hello.txt
+   
+   turtle>ls
+   hello.txt make-tokens.c  sample-output  turtle  turtle.c README
+
+   turtle>cat hello.txt
+   "Hello"
+
+   turtle>cd hello.txt
+   Some error
+
+   turtle>cat hi.text 
+   cat: hi.text: No such file or directory
+   Error
+
+   turtle>sleep 5 ;; cat hello.txt ;; sleep 1 ;; echo "hi" ;; ls
+   "Hello"
+   "hi"
+   hello.txt make-tokens.c  sample-output  turtle  turtle.c README
+
+   turtle>cat hi.txt ;; echo "You know nothing Jon Snow"
+   cat: hi.txt: No such file or directory
+   Error
+   "You know nothing Jon Snow"
+
+   turtle>
+
+*  Some more commands that you should try:
+   cd .
+   cd ..
+   cd xyz (directory which doesn't exist)
+   cat abc.txt
+   sleep 10 
+   echo "Hello World" > abc.txt
+   cp abc.txt def.txt
+   cat abc.txt > xyz.txt
+   sleep 1 ;; echo "Hello" ;; sleep 2 ;; cat abc.txt ;; sleep 3 ;; ls -l
+
+*  pipes.c and dup.c are sample programs for pipe and dupe system calls.
+   This is for self study, and no submission is required.

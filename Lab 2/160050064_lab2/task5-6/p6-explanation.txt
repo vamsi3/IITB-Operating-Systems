@@ -1,0 +1,24 @@
+===================================
+ps - output before keyboard input
+===================================
+
+vamsi@linux:~/lab2$ ps -o pid,stat --pid 6047
+ 	PID STAT
+	6047 S+
+
+===================================
+ps - output after keyboard input
+===================================
+
+vamsi@linux:~/lab2$ ps -o pid,stat --pid 6047
+ 	PID STAT
+	6047 Z+
+
+
+===================================
+Explanation
+===================================
+
+- For the case before input was given, S means an interruptible sleep (waiting for process to complete - waiting for a keyboard input in this case, as after that it can exit(0))
+
+- For the case after input was given, Z means a zombie process, i.e. it is terminated but some of its state (like pid, memory allocation, stack, etc.) in the memory. + refers to the fact that it a foreground process.

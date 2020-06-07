@@ -1,0 +1,22 @@
+$ lock-and-delay 1
+
+Lock-and-dalay with spinlock 
+Data[0] = 300
+Duration: 4130 ticks 
+
+$
+
+
+
+
+
+$ lock-and-delay 2
+
+Lock-and-dalay with mutex 
+Data[0] = 300
+Duration: 3148 ticks 
+
+$ 
+
+
+

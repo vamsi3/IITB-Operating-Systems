@@ -1,0 +1,23 @@
+$ proc-size
+
+getpsz: 16384 bytes 
+getpusz: 16384 bytes 
+getpksz: 268435456 bytes
+
+getpsz: 20480 bytes 
+getpusz: 20480 bytes 
+getpksz: 268435456 bytes
+
+getpsz: 49152 bytes 
+getpusz: 49152 bytes 
+getpksz: 268435456 bytes
+
+getpsz: 49153 bytes 
+getpusz: 53248 bytes 
+getpksz: 268435456 bytes
+
+getpsz: 49155 bytes 
+getpusz: 53248 bytes 
+getpksz: 268435456 bytes
+
+$ 

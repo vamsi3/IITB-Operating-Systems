@@ -1,0 +1,11 @@
+$ ./p1c
+Child 5822 is created by parent 5821 (sleeps for 9 seconds)
+Child 5824 is created by parent 5822 (sleeps for 4 seconds)
+Parent 5822: Child 5824 is exited
+Parent 5821: Child 5822 is exited
+
+$ ./p1c
+Child 5852 is created by parent 5851 (sleeps for 4 seconds)
+Child 5856 is created by parent 5852 (sleeps for 9 seconds)
+Parent 5851: Child 5852 is exited
+

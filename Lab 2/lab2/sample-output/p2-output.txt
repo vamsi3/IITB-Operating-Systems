@@ -1,0 +1,5 @@
+Child : My process ID is : 24862
+Child : The parent process ID is : 24861
+Parent : My process ID is : 24861
+Parent : The child process ID is : 24862
+Parent : The child with process ID 24862 has terminated.

@@ -1,0 +1,77 @@
+[testcase6A.img] Creating the disk image 
+[testcase6A.img] Disk image is successfully creatd 
+[testcase6A.img] Disk successfully mounted 
+[testcase6A.img] File system created. 
+[testcase6B.img] Creating the disk image 
+[testcase6B.img] Disk image is successfully creatd 
+[testcase6B.img] Disk successfully mounted 
+[testcase6B.img] File system created. 
+
+MOUNT-POINT  DEVICE-NAME          DEVICE-NUMBER   FS-NUMBER  FS-NAME              
+0            testcase6A.img       3               0          emufs non-encrypted 
+1            testcase6B.img       4               1          emufs encrypted     
+-----------------------------------------------------------------
+
+File 'file1.txt' Opened 
+File 'file2.txt' Opened 
+File 'file3.txt' Opened 
+
+[testcase6A.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+file1.txt       0 	[-1 -1 -1 -1] 	Mon Oct 29 13:49:31 2018
+file2.txt       0 	[-1 -1 -1 -1] 	Mon Oct 29 13:49:31 2018
+
+[testcase6B.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+file3.txt       0 	[-1 -1 -1 -1] 	Mon Oct 29 13:49:31 2018
+-----------------------------------------------------------------
+
+<file1.txt> Current offset: 0. Writing 512 bytes 
+<file1.txt> Writing completed. Number of bytes wrtitten: 512. Current offset: 512 
+
+<file2.txt> Current offset: 0. Writing 1024 bytes 
+<file2.txt> Writing completed. Number of bytes wrtitten: 1024. Current offset: 1024 
+
+[testcase6A.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+file1.txt     512 	[2 -1 -1 -1] 	Mon Oct 29 13:49:31 2018
+file2.txt    1024 	[3 4 -1 -1] 	Mon Oct 29 13:49:31 2018
+
+[testcase6B.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+file3.txt       0 	[-1 -1 -1 -1] 	Mon Oct 29 13:49:31 2018
+-----------------------------------------------------------------
+
+<file1.txt> Offset is set to 0 
+
+<file2.txt> Offset is set to 0 
+
+<file3.txt> Current offset: 0. Writing 512 bytes 
+<file3.txt> Writing completed. Number of bytes wrtitten: 512. Current offset: 512 
+
+<file3.txt> Current offset: 512. Writing 1024 bytes 
+<file3.txt> Writing completed. Number of bytes wrtitten: 1024. Current offset: 1536 
+
+<file3.txt> Offset is set to 0 
+
+<file3.txt> Current offset: 0. Reading 512 bytes 
+Data = [This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--This is a small text consisting 512 bytes--------------------------------------END] 
+<file3.txt> Reading completed. Number of bytes read: 512. Current offset: 512 
+
+<file3.txt> Current offset: 512. Reading 1024 bytes 
+Data = [This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---This is a large text consisting 1024 bytes---Reached the end of 1024 bytes--END] 
+<file3.txt> Reading completed. Number of bytes read: 1024. Current offset: 1536 
+
+[testcase6A.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+file1.txt     512 	[2 -1 -1 -1] 	Mon Oct 29 13:49:31 2018
+file2.txt    1024 	[3 4 -1 -1] 	Mon Oct 29 13:49:31 2018
+
+[testcase6B.img] fsdump 
+  NAME       SIZE 	[BLOCKS] 	LAST MODIFIED
+file3.txt    1536 	[2 3 4 -1] 	Mon Oct 29 13:49:31 2018
+-----------------------------------------------------------------
+[testcase6A.img] Device closed 
+[testcase6B.img] Device closed 
+
+MOUNT-POINT  DEVICE-NAME          DEVICE-NUMBER   FS-NUMBER  FS-NAME 

@@ -1,0 +1,19 @@
+$ ./test4a
+[7] Executing task1. ID: 100. a: 0. b: 2 
+[7] Completed 1 tasks. Last completed task ID: 100 
+[7] Executing task2. ID: 101. a: 1. b: 3 
+[7] Completed 2 tasks. Last completed task ID: 101 
+[7] Executing task1. ID: 102. a: 2. b: 4 
+[7] Completed 3 tasks. Last completed task ID: 102 
+[7] Executing task2. ID: 103. a: 3. b: 5 
+[7] Completed 4 tasks. Last completed task ID: 103 
+[7] Executing task1. ID: 104. a: 4. b: 6 
+[7] Completed 5 tasks. Last completed task ID: 104 
+
+--------------------------------------
+Results. 0 + 2 = 2 
+Results. 1 * 3 = 3 
+Results. 2 + 4 = 6 
+Results. 3 * 5 = 15 
+Results. 4 + 6 = 10 
+$ 
