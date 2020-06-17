@@ -1,6 +1,6 @@
 # CS 347/333: Operating Systems (Autumn 2018) - IIT Bombay
 
-This repository contains all my submissions to assignments written during my study of the CS 347/333 - **Operating Systems & Lab** course in Autumn 2018 at Indian Institute of Technology (IIT) Bombay, India.
+This repository contains all my submissions to assignments written during my study of the **CS347/ CS333: Operating Systems & Lab** course in Autumn 2018 at Indian Institute of Technology (IIT) Bombay, India.
 
 ## Author
 
